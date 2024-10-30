@@ -1,1 +1,240 @@
+@media screen and (max-width:1714px) {
+    #Home{
+        padding: 200px;
+        text-align: center;
+    }  
+}
+.navbar 
+{
+    background-image: url(./image/health\ care1.jpg);
+    
+}
+/* home start */
+
+.home h3
+{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+}
+.heading4
+{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    padding-top: 70px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+/* home end */
+#main1 p
+{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.nav-item
+{
+    margin-left: 40px;
+    color: white;
+}
+#one
+{
+   padding: 150px;
+}
+.nav-link 
+{
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.nav-link button
+{
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+#one p{
+    margin: 28px;
+}
+.heading5 
+{
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+.content1
+{
+    cursor: pointer;
+    
+}
+
+.heading5 .content1 a
+{
+    text-decoration: none;
+}
+
+
+.main1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.heading5 .content1 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+}
+.content1 ul i
+{
+    margin-right: 35px;
+    width: 20px;
+}
+.content1 ul a
+{
+    float: left;
+}
+.content1 p
+{
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+    .content1 ul i
+    {
+        width: 10px;
+        margin-right: 12px;
+    }
+    
+}
+
+
+/* food start */
+
+#Food
+{
+    width: 100%;
+
+}
+.heading4
+{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    padding-top: 70px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+#container
+{
+
+    margin-top: 30px;
+    
+}
+#food h3
+{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+}
+#food p
+{
+    color: #b2744c;
+    padding-top: 10px;
+}
+#food p span
+{
+    float: right;
+    cursor: pointer;
+}
+
+/* food end */
+/* health start */
+#health
+{
+    width: 100%;
+
+}
+.heading8
+{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    padding-top: 70px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+#container5
+{
+    margin-top: 30px;
+    
+}
+#health h3
+{
+    text-align: center;
+    color: black;
+    font-size: 23px;
+}
+#health p
+{
+    color: black;
+    padding-top: 10px;
+}
+#health p span
+{
+    float: right;
+    cursor: pointer;
+}
+/* health end */
+
+
+/* scroll bar start  */
+html
+{
+    scroll-behavior: smooth;
+}
+.arrow
+{
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.home img 
+{
+    display: grid;
+    grid-column: 50% 50%;
+
+}
+@media screen and (max-width:600px) {
+    .card img{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:900px) and (max-width:410px) {
+    .Main1  p{
+     margin-top: 200px;   
+     
+    }
+}
+@media screen and (max-width:600px) {
+    .Main2 
+    {
+        margin-bottom: 40%;
+    }
+    
+}
+@media screen and (min-width:900px) {
+    .Main1 p
+    {
+        margin-top: 200px;
+    }
+    
+}
+
+    
+/* scroll bar end */
+
+    
 
